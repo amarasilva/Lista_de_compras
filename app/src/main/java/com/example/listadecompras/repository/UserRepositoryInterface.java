@@ -9,6 +9,6 @@ public interface UserRepositoryInterface {
     public List<User> getUsers();
     public User getUserById(int id);
     public List<User> getUsersByName(String name);
-    public User addUser(User user);
-    public User updateUser(User user) ;
+    public User addUser(String login, String senha);
+    public User deleteUser(User user) ;
 }

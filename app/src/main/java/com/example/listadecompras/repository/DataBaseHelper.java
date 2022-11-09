@@ -20,12 +20,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
 
     @Override
+    //LOCAL ONDE CRIA AS TABELAS DO BANCO
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         String stm = "create table users (id INTEGER PRIMARY KEY, nome TEXT,\n" + " senha TEXT);";
         sqLiteDatabase.execSQL(stm);
     }
 
     @Override
+    //LOCAL ONDE ATUALIZA O BANCO
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
     }

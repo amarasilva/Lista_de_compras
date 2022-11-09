@@ -6,6 +6,11 @@ public class UserSQLRepository {
 
     private SQLiteDatabase bancoDeUsuarios;
 
+    public void criarBancoDados(){
+
+
+
+    }
 
 
 

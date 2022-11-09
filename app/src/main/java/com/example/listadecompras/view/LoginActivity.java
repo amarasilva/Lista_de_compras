@@ -23,6 +23,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         findViewById(R.id.buttonEntrar).setOnClickListener(this);
         findViewById(R.id.button2Cadastrar).setOnClickListener(this);
 
+
     }
 
     @Override
